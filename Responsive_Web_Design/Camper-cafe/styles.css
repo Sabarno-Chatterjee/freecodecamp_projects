@@ -7,23 +7,40 @@ h2,
 .established {
   text-align: center;
 }
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.established {
+  font-size: 1.5rem;
+  font-style: italic;
+}
 .menu {
   background-color: burlywood;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
 }
 
 .item p {
   display: inline-block;
+  font-size: 1.3rem;
 }
 
-.flavor {
+.flavor,
+.dessert {
   text-align: left;
-  width: 75%;
+  width: 74%;
 }
 
 .price {
   text-align: right;
-  width: 25%;
+  width: 24%;
 }
