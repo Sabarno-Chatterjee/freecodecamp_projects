@@ -6,50 +6,56 @@
     <title>Survey Form</title>
   </head>
   <body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
-    <p id="description">
-      Thank you for taking the time to help us improve the platform
-    </p>
-    <form id="survey-form">
-      <label for="name">Name</label>
-      <input
-        type="text"
-        name="name"
-        id="name"
-        placeholder="Enter your name"
-        required
-      />
-      <br />
-      <label for="email">Email</label>
-      <input
-        type="email"
-        name="email"
-        id="email"
-        placeholder="Enter your email"
-        required
-      />
-      <br />
-      <label for="age">Age(optional)</label>
-      <input
-        type="number"
-        name="age"
-        id="number"
-        placeholder="Age"
-        min="10"
-        max="100"
-      />
-      <br />
-      <label for="current-role"
-        >Which option best describes your current role?</label
-      >
-      <select name="current-role" id="dropdown">
-        <option value="" disabled selected hidden>Current Role</option>
-        <option value="Student">Student</option>
-        <option value="Full-time Job">Full-time Job</option>
-        <option value="Full-time Learner">Full-time Learner</option>
-        <option value="Prefer not to say">Prefer not to say</option>
-        <option value="Other">Other</option>
-      </select>
-    </form>
+    <main>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+      <form id="survey-form">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+        <br />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+        <br />
+        <label for="age">Age(optional)</label>
+        <input
+          type="number"
+          name="age"
+          id="number"
+          placeholder="Age"
+          min="10"
+          max="100"
+        />
+        <br />
+        <label for="current-role"
+          >Which option best describes your current role?</label
+        >
+        <select name="current-role" id="dropdown">
+          <option value="" disabled selected hidden>Current Role</option>
+          <option value="Student">Student</option>
+          <option value="Full-time Job">Full-time Job</option>
+          <option value="Full-time Learner">Full-time Learner</option>
+          <option value="Prefer not to say">Prefer not to say</option>
+          <option value="Other">Other</option>
+        </select>
+        <label for="recommendation"
+          >Would you recommend freeCodeCamp to a friend?</label
+        >
+        <input type="radio" />
+      </form>
+    </main>
   </body>
 </html>
