@@ -44,3 +44,7 @@ h2 {
   text-align: right;
   width: 24%;
 }
+
+footer p {
+  text-align: center;
+}
